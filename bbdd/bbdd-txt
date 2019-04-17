@@ -1,0 +1,36 @@
+Python es capaz de trabajar con RDBMS:
+	SQL Server
+	Oracle
+	MySQL
+	SQLite
+	PostgreSQL
+	Etc.
+y también con Bases de datos Orientadas a Objetos
+
+Download DB Browser for SQLite
+SQLite
+	Está escrito en C y es de código abierto
+	Forma parte integral del programa (la bbdd se integra dentro del propio programa)
+	Se guarda como un único fichero en host
+
+	VENTAJAS
+		Ocupa muy poco espacio en disco y memoria
+		Muy eficiente y rápido
+		Multiplataforma
+		Sin administración / configuración
+		Dominio público. Sin costo
+
+	INCONVENIENTES
+		No admite cláusulas anidadas
+		No existen usuarios (no acceso simultáneo por parte de varios usuarios a la vez)
+		Falta de clave foránea cuando se crea en modo consola
+
+
+
+Pasos a seguir para conectar Python con BBDD
+	1. Abrir-Crear conexión
+	2. Crear puntero
+	3. Ejecutar query (consulta) SQL
+	4. Manejar lor resultados de la query (CRUD)
+	5. Cerrar puntero
+	6. Cerrar conexión

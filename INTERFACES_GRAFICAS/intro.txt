@@ -1,0 +1,43 @@
+También denominadas GUI, son intermediarios entre el programa y el usuario.
+Están formadas por un conjunto de gráficos como ventanas, botones, menús...
+
+Librerías con las que trabajar para crear GUI:
+	Tkinter
+	WxPython
+	PyQT
+	PyGTK
+
+Tkinter es un puente entre el lenguaje Python y una librería estándard de
+otros lenguajes (Perl, Ruby, etc..) llamada TCL/TK
+
+Para lynux:
+$sudo apt-get install python3-tk
+________________________
+|		RAIZ(tk)	   |
+|______________________|
+|	_____FRAME_______  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|	WIDGETS		|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|				|  |
+|	|_______________|  |
+|					   |
+|______________________|
+
+https://docs.python.org/3/library/tk.html
+editamos el FRAME --> https://docs.python.org/3/library/tk.html#handy-reference
+
+la extensión .pyw evita que abra 
