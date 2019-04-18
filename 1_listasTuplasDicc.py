@@ -1,3 +1,4 @@
+
 listaNames = ["Jaime", "Luis", "Sonsoles"]
 #print(listaNames)
 #print(listaNames[0])
@@ -106,6 +107,9 @@ JordanDicc = {
 #JordanDicc["Anillos"] = {"temporadas":[91,92,93,96,97,98]}
 #print(JordanDicc)
 
+'''
 print( JordanDicc.keys() )
 print( JordanDicc.values() )
 print( len(JordanDicc) )
+'''
+print( JordanDicc.items() )

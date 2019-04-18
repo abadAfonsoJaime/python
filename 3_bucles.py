@@ -72,10 +72,10 @@ if intentos<2:
 for letra in "Python":
 	print(f"Viendo la letra: {letra.upper()}")
 
-nombre = "Pildoras Informaticas"
+culo = "ivis-yamileth-granados"
 contador = 0
 
-for i in nombre:
+for i in culo:
 
 	if i == " ":
 		continue

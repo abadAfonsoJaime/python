@@ -1,3 +1,8 @@
+'''
+The part that is magic is the fact that self is the first parameter passed to __init__(). 
+Python will use the first parameter that __init__() receives to refer to the object being created; 
+this is why it’s often called self, since this parameter gives the object being created its identity.
+'''
 class Vehiculo():
 
 	def __init__(self, marca, modelo):

@@ -49,7 +49,7 @@ else:
 	print ("Operación no contemplada")
 
 
-print("Operación ejecutada. Continuación de ejecúción del programa ")
+print("Operación ejecutada. Continuación de ejecución del programa ")
 
 
 
