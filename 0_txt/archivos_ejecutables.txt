@@ -1,0 +1,13 @@
+1. Ejecutamos el siguiente comando por consola:
+	$ pip install pyinstaller
+2. Accedemos al directorio en el que se encuentre nuestro archivo.py y ejecutamos
+	$ pyinstaller fileName.py
+		2.1. Si es una aplicación gráfica y no queremos la consola:
+			$ pyinstaller --windowed fileName.py
+		2.2.Para que la carpeta dist solo contenga un archivo (aunque más pesado)
+			$ pyinstaller --windowed --onefile fileName.py
+		2.3.Para que el archivo/programa sea como un icono, debes tener la imagen en formato image.ico
+		 en el mismo directorio (ya que el comando accede con ruta relativa)
+			$ pyinstaller --windowed --onefile --icon=./image.ico fileName.py
+3.dist > fileName.exe
+

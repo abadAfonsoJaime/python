@@ -1,4 +1,4 @@
-class Coche():
+class Car():
 	# Constructor
 	def __init__(self):
 		# Encapsular
@@ -34,14 +34,14 @@ class Coche():
 		else:
 			return False
 
-miCoche = Coche()
+miCoche = Car()
 
 miCoche.estado()
 print( miCoche.arrancar(True) )
 miCoche.estado()
 
 print("-------------SE CREA UN SEGUNDO OBJETO COCHE-------------")
-miCoche2=Coche()
+miCoche2=Car()
 print( miCoche2.arrancar(False) )
 miCoche2.estado()
 

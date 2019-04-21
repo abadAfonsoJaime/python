@@ -40,4 +40,6 @@ ________________________
 https://docs.python.org/3/library/tk.html
 editamos el FRAME --> https://docs.python.org/3/library/tk.html#handy-reference
 
-la extensión .pyw evita que abra 
+la extensión .pyw evita que abra la consola en segundo plano
+
+Camtasia Studio + Zoomlt

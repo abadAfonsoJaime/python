@@ -1,7 +1,9 @@
+Si la extensión es .pyc se trata de un Python compilado
+ o de un archivo escrito en C para CPython
 
 Si no se encuentra el módulo a importar en el mismo directorio en el que se le llama,
-Python busca por defecto en el syspath
-un conjunto de directorios entre los que están los archivos de instalción y otros
+Python busca por defecto en el syspath:
+	un conjunto de directorios entre los que están los archivos de instalción y otros
 
 Si el paquete no está instalado, la ruta de importación es relativa,
 una vez instalado, las rutas de importación deben ser desde el directorio raíz

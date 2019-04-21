@@ -1,3 +1,4 @@
+''' Este módulo permite realizar operaciones matemáticas básicas '''
 def suma(num1, num2):
 	return num1+num2
 
